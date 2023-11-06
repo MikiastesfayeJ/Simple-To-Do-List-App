@@ -1,1 +1,1 @@
-# Simple-To-Do-List-App
+Simple to-do list app using vanilla javascript
