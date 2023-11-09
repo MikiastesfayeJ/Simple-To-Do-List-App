@@ -13,6 +13,12 @@ add.addEventListener('click', () => {
     console.log(newList);
     input.value = '';
 
+    //to mark off tasks
+    newList.addEventListener('click', () => {
+        newList.style.backgroundColor = 'aqua';
+        newList.style.color = 'brown';
+    });
+
     //to remove tasks
     newList.addEventListener('dblclick', () => {
         newList.remove();
